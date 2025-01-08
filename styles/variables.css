@@ -1,15 +1,15 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --accent-font: 'PressStart2P';
-  --main-font: 'Inter';
-  --font-weight-text: normal;
-  --font-weight-headings: bold;
+  --accent-font: 'PressStart2P', sans-serif;
+  --main-font: 'Inter', sans-serif;
+  --font-weight-text: 400;
+  --font-weight-headings: 700;
   --header-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
   --card-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
-  --white: #fff;
-  --black: #000;
-  --red: #FF0000;
-  --gradient: 
+  --color-white: #fff;
+  --color-black: #000;
+  --color-sparks: #FF0000;
+  --main-background-image: 
   repeating-linear-gradient(90deg, #d3d3d3 0 2px , transparent 2px 4px),
   repeating-linear-gradient(0deg, #d3d3d3 0 2px, transparent 2px 4px),
   linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
