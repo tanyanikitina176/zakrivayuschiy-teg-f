@@ -227,9 +227,11 @@
 }
 
 .dialog-window-button {
+  position: relative;
   grid-column: span 2;
   margin-block-start: 0.625rem;
   padding: 0;
+  overflow: hidden;
   line-height: 90%;
   text-transform: uppercase;
 }
@@ -264,10 +266,6 @@ dialog::backdrop {
   .card {
     margin-block-end: 3.125rem;
   }
-
-  main .card:last-of-type {
-   margin-block-end: 1.9375rem;
-  } 
 
   .button_open-dialog {
     display: flex;
