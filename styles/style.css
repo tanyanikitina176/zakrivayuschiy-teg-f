@@ -180,13 +180,18 @@
 }
 
 .card__like-button {
-  position: relative;
   display: flex;
   justify-content: center;
   padding: 0.75rem  2.3125rem;
-  overflow: hidden;
   inline-size: 8.125rem;
 }
+
+
+.button__animation {
+  overflow: hidden;
+  position: relative;
+}
+
 
 .button__text {
   position: relative;
@@ -204,9 +209,7 @@
 }
 
 .button_open-dialog {
-  position: relative;
   padding: 0.9375rem 1.25rem;
-  overflow: hidden;
 }
 
 .dialog-window {
@@ -227,11 +230,9 @@
 }
 
 .dialog-window-button {
-  position: relative;
   grid-column: span 2;
   margin-block-start: 0.625rem;
   padding: 0;
-  overflow: hidden;
   line-height: 90%;
   text-transform: uppercase;
 }
